@@ -57,3 +57,89 @@ html, body {
     height: 100%;
 }
 
+header {
+	font-size: 25px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+	line-height: 25px;
+	color: whitesmoke;
+	
+}
+h1{
+.align-text();
+	font-size: 50px;
+	color: grey;
+}
+
+*{
+	background-color: black;
+	
+}
+.paragraph{
+	margin-left:25%;
+	margin-right: 25%;
+	margin-top: 15px;
+	.fontColor()
+}
+.imgWrap img{
+	width: 60%;
+	height: 10%;
+	border-radius: 10%;
+	
+}
+.imgWrap{
+	display: flex;
+	margin-left: 27%;
+	
+}
+.projectDiv{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 40px;	
+	flex-wrap:wrap;
+	margin-bottom: 20%;
+	.fontColor()
+}
+.projectDiv img{
+	width: 15%;
+	height: 15%;
+}
+
+footer{
+	.align-text();
+	line-height: 25px;
+	.fontColor();
+}
+.skills{
+	width: 50%;
+	text-align: center;
+	margin-bottom: 15%;
+	margin-left: 25%;
+	.fontColor()
+}
+
+
+.align-text(){
+	text-align:center;
+}
+
+.fontColor(){
+	color: whitesmoke;
+}
+
+@media(max-width:500px){
+	header nav{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.projectDiv{
+		display: flex;
+		flex-direction: column-reverse;
+		
+		text-align: center;
+	}
+	.projectDiv img{
+		display: none;
+	}
+}
