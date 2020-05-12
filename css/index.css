@@ -1,1 +1,205 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+header {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  line-height: 25px;
+  color: whitesmoke;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: grey;
+}
+* {
+  background-color: black;
+}
+.paragraph {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 15px;
+  color: whitesmoke;
+}
+.imgWrap img {
+  width: 60%;
+  height: 10%;
+  border-radius: 10%;
+}
+.imgWrap {
+  display: flex;
+  margin-left: 27%;
+}
+.projectDiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 20%;
+  color: whitesmoke;
+}
+.projectDiv img {
+  width: 15%;
+  height: 15%;
+}
+footer {
+  text-align: center;
+  line-height: 25px;
+  color: whitesmoke;
+}
+.skills {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 15%;
+  margin-left: 25%;
+  color: whitesmoke;
+}
+@media (max-width: 500px) {
+  header nav {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .projectDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .projectDiv img {
+    display: none;
+  }
+}
